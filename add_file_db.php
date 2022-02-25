@@ -11,7 +11,7 @@ $fileupload= (isset($_POST['fileupload']) ? $_POST['fileupload'] : '');
 	$date = date("Ymd");	
 //ฟังก์ชั่นสุ่มตัวเลข
          $numrand = (mt_rand());      */
-//เพิ่มไฟล์
+//เพิ่มไฟล์ฟหกหก
 $upload=$_FILES['fileupload'];
 if($upload !='') {   //not select file
 //โฟลเดอร์ที่จะ upload file เข้าไป 

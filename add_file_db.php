@@ -37,7 +37,7 @@ if($upload !='') {   //not select file
 	
 	mysqli_close($con);
 	// javascript แสดงการ upload file
-	
+	ssss
 	if($result){
 	echo "<script type='text/javascript'>";
 	echo "alert('Upload File Succesfuly');";

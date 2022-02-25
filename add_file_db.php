@@ -5,7 +5,7 @@
 include('connect2.php');  //ไฟล์เชื่อมต่อกับ database ที่เราได้สร้างไว้ก่อนหน้าน้ี
 //$fileupload = $_POST['fileupload']; //รับค่าไฟล์จากฟอร์ม
 $fileupload= (isset($_POST['fileupload']) ? $_POST['fileupload'] : '');	
-
+sss
 //ฟังก์ชั่นวันที่
     /*    date_default_timezone_set('Asia/Bangkok');
 	$date = date("Ymd");	

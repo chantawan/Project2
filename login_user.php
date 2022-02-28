@@ -3,6 +3,11 @@
 <head>
     <link rel="icon" href="img/logoUser1.png" type="image/png">
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/jquery-3.5.1.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@10"></script>
@@ -41,6 +46,21 @@
     </style>
 </head>
 <body>
+    <header id="header" class="fixed-top">
+                <div class="container d-flex align-items-center justify-content-between">
+                    <div class="container mt-4">
+                        <div class="row">
+                        <div class="col-md-12">
+                        <nav id="navbar" class="navbar">
+                    <ul>
+                    <li><a class="tshadow animate__animated animate__backInDown" href="index.html">Home</a></li>
+                    <li><a class="tshadow animate__animated animate__backInDown" href="login_admin.php">ADMIN</a></li>
+                    <li><a class="tshadow animate__animated animate__backInDown" href="login_user.php">USER</a></li>
+                    </ul>
+                    <i class="bi bi-list mobile-nav-toggle"></i>
+                </nav>
+                </div>
+        </header>
     <div class="container mt-4">
         <div class="row">
             <div class="col-md-12">

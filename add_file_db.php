@@ -15,7 +15,7 @@ $fileupload= (isset($_POST['fileupload']) ? $_POST['fileupload'] : '');
 $upload=$_FILES['fileupload'];
 if($upload !='') {   //not select file
 //โฟลเดอร์ที่จะ upload file เข้าไป 
-            $path="fileupload/";  
+            $path="fileupload/";  fgfgf
 
             //เอาชื่อไฟล์เก่าออกให้เหลือแต่นามสกุล
             $type = basename($_FILES['fileupload']['name'],".");
